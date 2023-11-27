@@ -4,7 +4,7 @@ include_once("conexao.php");
 
 ?>
 
-
+<!--  -->
 
 <!-- Trending products-->
 <section class="section section-md bg-default margem-cima">
