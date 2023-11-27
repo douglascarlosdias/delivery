@@ -1,0 +1,17 @@
+{
+    "name": "ronie/dompdf",
+    "autoload": {
+        "psr-4": {
+            "Ronie\\Dompdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "roniepetersondf",
+            "email": "roniepetersondf@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}
