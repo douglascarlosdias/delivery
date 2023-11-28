@@ -89,9 +89,14 @@ if ($linhas == 0) {
 
             <?php
 
+            $total = 0;
+            $total_final = 0;
+            $valor = 0;
+            $sub_total = 0;
+            $valor_final = 0;
+            $total_item = 0;
+            $taxa_entrega = 0;
 
-
-            $total;
             for ($i = 0; $i < count($dados); $i++) {
               foreach ($dados[$i] as $key => $value) {
               }
@@ -120,7 +125,7 @@ if ($linhas == 0) {
               //$total = number_format( $total , 2, ',', '.');
               $total_item = number_format($total_item, 2, ',', '.');
               $valor_final = number_format($valor_final, 2, ',', '.');
-              @$taxa_entrega = number_format(@$taxa_entrega, 2, ',', '.');
+              // @$taxa_entrega = number_format(@$taxa_entrega, 2, ',', '.');
               $sub_total = number_format($sub_total, 2, ',', '.');
             ?>
 
