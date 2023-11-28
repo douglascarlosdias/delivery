@@ -31,7 +31,7 @@ echo '
 		$res = $pdo->query("SELECT * from usuarios where nivel = 'Balconista' order by nome asc ");
 	}else{
 		$txtbuscar = '%'.@$_POST['txtbuscar'].'%';
-		$res = $pdo->query("SELECT * from locais where nivel = 'Balconista' and (nome LIKE '$txtbuscar' or cpf LIKE '$txtbuscar') order by nome asc");
+		$res = $pdo->query("SELECT * from usuarios where nivel = 'Balconista' and (nome LIKE '$txtbuscar' or cpf LIKE '$txtbuscar') order by nome asc");
 
 	}
 	

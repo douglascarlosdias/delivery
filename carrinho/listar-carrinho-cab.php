@@ -89,7 +89,7 @@ echo '
 
                      echo '   </div>
                         <div class="cart-inline-footer">
-                          <div class="group-sm"><a class="button button-md button-default-outline-2 button-wapasha" href="produtos">+ Produtos</a><a class="button button-md button-primary button-pipaluk" href="finalizar-compra" target="_blank">Finalizar</a></div>
+                          <div class="group-sm"><a class="button button-md button-default-outline-2 button-wapasha" href="produtos">+ Produtos</a><a class="button button-md button-primary button-pipaluk" href="finalizar-compra">Finalizar</a></div>
                         </div>
                    
 ';
