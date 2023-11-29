@@ -173,7 +173,7 @@ if($total_usuarios == 0){
 </section>
 
 <!-- Section CTA 2-->
-<section class="section text-center">
+<!-- <section class="section text-center">
   <div class="parallax-container" data-parallax-img="images/">
     <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-40">
       <div class="container">
@@ -183,7 +183,7 @@ if($total_usuarios == 0){
     </div>
   </div>
 </section>
-
+ -->
 
 
 
