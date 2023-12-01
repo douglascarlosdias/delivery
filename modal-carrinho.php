@@ -12,7 +12,7 @@
       <div class="modal-body">
 
         <?php if (@$_SESSION['cpf_usuario'] == '') {
-          echo 'Você precisa está Logado, faça seu login clicando <a class="vermelho-link" href="login" target="_blank" title="Ir para o Login"> aqui </a>, caso não tenha login faça seu cadastro!';
+          echo 'Você precisa está Logado, faça seu login clicando <a class="vermelho-link" href="login" title="Ir para o Login"> aqui </a>, caso não tenha login faça seu cadastro!';
         } else { ?>
           <div id="listar-carrinho">
 
