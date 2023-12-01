@@ -101,11 +101,16 @@ $cep = $dados[0]['cep'];
 			<td><?php echo $nome_produto ?></td>
 			<td align="center"><?php echo $quantidade ?></td>
 			<td align="right">R$ <?php echo $total_item ?></td>
+			
 		</tr>
+		
 
 	<?php } ?>
 		
 	</tbody>
+	<tr>
+		<td>Observação: <?php echo $obs ?></td>
+		</tr>
 	<tfoot>
 
 		<tr>
