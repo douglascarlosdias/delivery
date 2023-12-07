@@ -8,7 +8,7 @@ if(empty($_POST['username']) || empty($_POST['pass'])){
 }
 
 $usuario = $_POST['username'];
-$senha =$_POST['pass'];
+$senha =md5($_POST['pass']);
 
 
 $res = $pdo->prepare("SELECT * from usuarios where usuario = :usuario and senha = :senha ");

@@ -6,7 +6,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $cpf = $_POST['cpf'];
 $telefone = $_POST['telefone'];
-$senha =$_POST['senha'];
+$senha =md5($_POST['senha']);
 
 
 //CONSULTA PARA TRAZER O CPF E EMAIL CASO JÁ EXISTA NO BANCO
